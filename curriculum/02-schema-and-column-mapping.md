@@ -14,39 +14,45 @@ In Darwin Core a table is a collection of rows and a header row at the top.
 
 An essential table is the **occurrence** table.
 
-This is the table of what was seen where+when.
-
+The occurrence table is the table of what was seen where+when.
 Here is a partial Darwin Core Occurrence Table:
 
-taxa | latitude | longitude | datetime
------|----------|-----------|-------------
+occurrenceID | scientificName | basisOfRecord | occurrenceStatus | decimalLatitude | decimalLongitude | eventDate
+-------------|----------------|---------------|------------------|-----------------|------------------|----------
+
+
+-------------------------------------------------------------
 
 
 
 
 -------------------------------------------------------------
 
+To put your data into OBIS, you must construct an occurrence table.
+
+Some of your data may not fit into the Occurrence table. 
+For this data you can use other tables, like the Event and MeasurementOrFact tables.
+
+-------------------------------------------------------------
+
+Homework map columns to occurrence table.
+
+
+Minimum Occurrence columns:
+
+TODO
+
+-------------------------------------------------------------
+
+Mapping example:
+
+TODO
+
+
+Links
 
 * [schema diagram](https://ipt.gbif.org/manual/en/ipt/latest/dwca-guide)
   * start with occurrence, Event, & MoF
 * [DwC Quick reference](https://dwc.tdwg.org/terms/#measurementorfact)
 
 -------------------------------------------------------------
-
-Homework map columns to event, occurrence, & MoF tables.
-
-
-Minimum Occurrence columns:
-
-
-Minimum Event Columns:
-
-
-MoF:
-
-
-
-
-Mapping example:
-
-TODO
