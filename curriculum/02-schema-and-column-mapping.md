@@ -46,14 +46,14 @@ Below is an example mapping:
 
 DwC Column Name    | Where it is in your data.
 -------------------|--------------------------------
-* occurrenceID     | New column will be created with format `exampleDataset-{eventDate}-{sequential number}`.
-* occurrenceStatus | `present` for all records.
-* basisOfRecord    | `HumanObservation` for all records.
-* scientificName   | Column "species name" from observations.xslx.
-* scientificNameID | NOTE: leave this blank for now.
-* eventDate        | Column "date" from observations.xlsx.
-* decimalLatitude  | Column "lat" from observations.xlsx.
-* decimalLongitude | Column "lon" from observations.xlsx.
+occurrenceID     | New column will be created with format `exampleDataset-{eventDate}-{sequential number}`.
+occurrenceStatus | `present` for all records.
+basisOfRecord    | `HumanObservation` for all records.
+scientificName   | Column "species name" from observations.xslx.
+scientificNameID | NOTE: leave this blank for now.
+eventDate        | Column "date" from observations.xlsx.
+decimalLatitude  | Column "lat" from observations.xlsx.
+decimalLongitude | Column "lon" from observations.xlsx.
 
 
 -------------------------------------------------------------
