@@ -41,11 +41,11 @@ First we will create the occurrence table, then we can work on other tables.
 -------------------------------------------------------------
 
 
-Your task is to create a "mapping" of columns to explain where the required Darwin Core Occurrence column data is in your existing dataset.
-Below is an example mapping:
+Your task is to create a "crosswalk mapping" of columns to explain where the required Darwin Core Occurrence column data is in your existing dataset.
+Below is an example crosswalk mapping:
 
-DwC Column Name    | Where it is in your data.
--------------------|--------------------------------
+DwC Column Name  | Where it is in your data.
+-----------------|--------------------------------
 occurrenceID     | New column will be created with format `exampleDataset-{eventDate}-{sequential number}`.
 occurrenceStatus | `present` for all records.
 basisOfRecord    | `HumanObservation` for all records.
@@ -59,7 +59,7 @@ decimalLongitude | Column "lon" from observations.xlsx.
 -------------------------------------------------------------
 
 
-Homework: map your columns to occurrence table columns.
+Homework: Create a crosswalk mapping of your columns to occurrence table columns.
 
 The Minimum Occurrence columns are:
 
