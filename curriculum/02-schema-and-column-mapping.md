@@ -63,16 +63,16 @@ Homework: map your columns to occurrence table columns.
 
 The Minimum Occurrence columns are:
 
-DwC Column Name    | Where it is in your data.
--------------------|--------------------------------
-* occurrenceID     | A unique record identifier.
-* occurrenceStatus | `presence` or `absence`
-* basisOfRecord    | Usually `HumanObservation` (no spaces). For other options see [here](https://docs.gbif.org/course-data-use/en/basis-of-record.html).
-* scientificName   | Taxonomic classification of the organism.
-* scientificNameID | NOTE: leave this blank for now. 
-* eventDate        | The date of the observation.
-* decimalLatitude  | The location of the observation.
-* decimalLongitude | The location of the observation.
+DwC Column Name  | Description
+-----------------|--------------------------------
+occurrenceID     | A unique record identifier.
+occurrenceStatus | `presence` or `absence`
+basisOfRecord    | Usually `HumanObservation` (no spaces). For other options see [here](https://docs.gbif.org/course-data-use/en/basis-of-record.html).
+scientificName   | Taxonomic classification of the organism.
+scientificNameID | NOTE: leave this blank for now. 
+eventDate        | The date of the observation.
+decimalLatitude  | The location of the observation.
+decimalLongitude | The location of the observation.
 
 
 -------------------------------------------------------------
