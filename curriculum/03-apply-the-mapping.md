@@ -10,3 +10,5 @@ Save the table as `occurrence.csv`.
 Write a {programming language} script to create a Darwin Core Occurrence table from the following column mapping.
 Save the table as `occurrence.csv`.
 ```
+
+Once you have an `occurrence.csv` we will move on to checking each column.
