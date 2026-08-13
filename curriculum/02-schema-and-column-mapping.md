@@ -85,3 +85,19 @@ Reference Materials:
 * [DwC schema diagram](https://ipt.gbif.org/manual/en/ipt/latest/dwca-guide)
 * [DwC Quick reference](https://dwc.tdwg.org/terms/#measurementorfact)
 
+
+-------------------------------------------------------------
+
+
+## Event & Extended Measurement or Fact Tables
+Using an occurrence table only (called "Occurrence Core") is the simplest way to get data into OBIS.
+Additional information can be included by using "Event Core".
+"Event Core"... 
+
+TODO: 
+* continue above
+* https://manual.obis.org/vocabulary.html
+* NERC searches/lookups (most common?)
+* List of columns from https://manual.obis.org/format_emof.html
+* Every MoF has an event; some connect to an occurrence
+
