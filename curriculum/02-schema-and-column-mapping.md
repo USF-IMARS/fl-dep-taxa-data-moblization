@@ -95,6 +95,7 @@ Additional information can be included by using "Event Core".
 "Event Core"... 
 
 TODO: 
+* [table of required columns for extensions](https://manual.obis.org/checklist.html)
 * continue above
 * https://manual.obis.org/vocabulary.html
 * NERC searches/lookups (most common?)
